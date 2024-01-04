@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Kotlin-Knn.iml" filepath="$PROJECT_DIR$/.idea/Kotlin-Knn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Knn.Kotlin-Knn.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Knn.Kotlin-Knn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Knn.Kotlin-Knn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Knn.Kotlin-Knn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Knn.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Knn.iml" />
     </modules>
   </component>
 </project>
