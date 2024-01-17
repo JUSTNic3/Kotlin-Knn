@@ -15,7 +15,7 @@ fun main() {
 
     while (continueRunning) {
         println("Main Menu:")
-        println("1. Find out top Countrys and Languages for movies ")
+        println("1. Find out top Country's and Languages for movies ")
         println("2. Get detail description of a movie from a database")
         println("3. Find out how much did top 10 movies earn")
         println("4. Run Data Handler Function (DON'T!)")
