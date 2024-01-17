@@ -34,7 +34,7 @@ const val ANSI_GREEN = "\u001B[32m"
 const val ANSI_YELLOW = "\u001B[33m"
 const val ANSI_BLUE = "\u001B[34m"
 
-fun main() {
+fun main1() {
     val csvData = loadCsvData("database/imdb_movies.csv")
     processData(csvData)
 }

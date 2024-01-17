@@ -12,8 +12,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("com.github.doyaaaaaken:kotlin-csv-jvm:1.9.2") // for JVM platform
-    implementation("no.tornado:tornadofx:1.7.20")
-
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0-RC2")
 }
 
 tasks.test {

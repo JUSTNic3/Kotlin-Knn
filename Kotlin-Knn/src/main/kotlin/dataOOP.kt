@@ -15,7 +15,7 @@ val movies: List<Movie> = loadCsvData("database/imdb_movies.csv").mapNotNull { r
         null
     }
 }
-fun main() {
+fun main2() {
     val movies: List<Movie> = loadCsvData("database/imdb_movies.csv").mapNotNull { row ->
 
         val crew = row["crew"]
