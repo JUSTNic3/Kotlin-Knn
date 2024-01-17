@@ -47,7 +47,7 @@ fun main() {
     println("Exiting program. Goodbye!")
 }
 
-// Placeholder functions. Replace with actual functions from your files.
+
 fun runDataOOPFunction() {
     println("Running...")
     dataOOP()
@@ -76,6 +76,4 @@ fun runDataHandler() {
 }
 
 
-
-// Add similar placeholder functions for the other options.
 
