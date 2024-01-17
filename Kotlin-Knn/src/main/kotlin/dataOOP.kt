@@ -8,14 +8,13 @@ val movies: List<Movie> = loadCsvData("database/imdb_movies.csv").mapNotNull { r
     val crew = row["crew"]
     val country = row["country"]
     val originalLanguage = row["orig_lang"]
-
     if (crew != null && country != null && originalLanguage != null) {
         return@mapNotNull Movie(crew, country, originalLanguage)
     } else {
         null
     }
 }
-fun main2() {
+fun dataOOP() {
     val movies: List<Movie> = loadCsvData("database/imdb_movies.csv").mapNotNull { row ->
 
         val crew = row["crew"]
