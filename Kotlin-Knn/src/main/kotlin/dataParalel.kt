@@ -57,7 +57,7 @@ fun loadingAnimation(): String {
 }
 
 fun searchFilm(filmName: String, data: List<Map<String, String>>): Map<String, String>? {
-    return data.firstOrNull { it["names"]?.equals(filmName, ignoreCase = true) == true }
+    return data.firstOrNull { it["names"]?.contains(filmName, ignoreCase = true) == true }
 }
 
 fun printFilmData(filmData: Map<String, String>) {
