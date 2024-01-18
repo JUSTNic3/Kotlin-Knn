@@ -9,12 +9,11 @@ import kotlin.system.exitProcess
 *                                                 *
 *****************************************************/
 
-
 fun main() {
     var continueRunning = true
 
     while (continueRunning) {
-        println("Main Menu:")
+        println("\u001B[34mMain Menu:")
         println("1. Find out top Country's and Languages for movies ")
         println("2. Get detail description of a movie from a database")
         println("3. Find out how much did top 10 movies earn")

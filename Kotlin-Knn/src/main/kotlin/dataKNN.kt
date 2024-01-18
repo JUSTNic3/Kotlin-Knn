@@ -23,9 +23,9 @@ class KNNAlgorithm(
     }
 
     private fun computeKNNSimilarity(movie1: KNNMovie, movie2: KNNMovie): Double {
-        val genreWeight = 0.2 // Adjust
-        val crewWeight = 0.3
-        val languageWeight = 0.4
+        val genreWeight = 0.5 // Adjust
+        val crewWeight = 0.4
+        val languageWeight = 0.3
 
         val genreSimilarity = jaccardIndex(movie1.genre.toGenreSet(), movie2.genre.toGenreSet())
         val crewSimilarity = jaccardIndex(movie1.crew.toCrewSet(), movie2.crew.toCrewSet())
